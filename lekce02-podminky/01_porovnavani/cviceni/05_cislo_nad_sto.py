@@ -4,5 +4,7 @@
 # Zeptej se uživatele na číslo a vypiš True/False podle toho,
 #    jestli je větší než 100.
 #    (Vzpomeň si z minula: text z input() převedeš na číslo pomocí int().)
-
+input_cislo = input("zadej číslo: ")
+cislo = int(input_cislo)
+print(cislo > 100)
 
