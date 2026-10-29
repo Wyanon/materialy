@@ -7,4 +7,13 @@
 # Můžeš v ní použít oddelovac() z prvního úkolu – zkopíruj si jeho
 # definici sem nahoru, soubory se navzájem nevidí.
 
+def oddelovac ():
+    print("*"*30)
 
+oddelovac()
+oddelovac()
+
+def rámeček(text):
+    oddelovac()
+    print(text)
+    oddelovac()
