@@ -10,4 +10,9 @@
 cenik = {"pivo": 45, "víno": 60, "džus": 35}
 
 napoj = input("Co si dáš? ")
-print(f"{napoj} stojí {cenik[napoj]} Kč.")
+napoj = napoj.lower().strip()
+if napoj in cenik:
+    print(f"{napoj} stojí {cenik[napoj]} Kč.")
+else:
+    print("Tohle nemáme.")
+

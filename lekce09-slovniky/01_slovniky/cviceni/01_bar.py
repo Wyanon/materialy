@@ -13,3 +13,9 @@
 #      Položek: 4
 
 cenik = {"pivo": 45, "víno": 60, "džus": 35, "voda": 20}
+print(f"Voda stojí {cenik['voda']} Kč.")
+cenik.update({"cola": 40})
+cenik["pivo"] += 5
+del cenik["voda"]
+print(cenik)
+print(f"Položek: {len(cenik)}")
